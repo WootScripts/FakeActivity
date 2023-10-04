@@ -6,10 +6,10 @@
 # Function to get a random sentence
 Function Get-RandomSentence {
     $sentences = @(
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "The quick brown fox jumps over the lazy dog.",
-        "Life is like a box of chocolates, you never know what you're gonna get.",
-        "To be or not to be, that is the question."
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.`n",
+        "The quick brown fox jumps over the lazy dog.`n",
+        "Life is like a box of chocolates, you never know what you're gonna get.`n",
+        "To be or not to be, that is the question.`n"
     )
     Get-Random $sentences
 }
